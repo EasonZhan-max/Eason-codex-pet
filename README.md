@@ -1,45 +1,45 @@
-# Eason Codex Desktop Pet
+# Eason Codex 桌宠
 
-Eason is a custom Codex desktop pet made from the author's reference art.
+这是一个可以在 Codex 里使用的自定义桌宠：Eason。
 
-## Preview
+## 文件说明
 
-The pet package is in `eason/`:
+桌宠文件在 `eason/` 文件夹里：
 
 - `eason/pet.json`
 - `eason/spritesheet.webp`
 
-## Install
+## 安装方法
 
-### Option 1: Automatic install on Windows
+### 方法一：一键安装
 
-Run PowerShell from this folder:
+下载本仓库后，在当前文件夹里运行：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
-Then restart Codex, or switch the desktop pet once and choose `Eason`.
+然后重启 Codex，或者在 Codex 里切换一次桌宠，选择 `Eason`。
 
-### Option 2: Manual install
+### 方法二：手动安装
 
-Copy the `eason` folder to your Codex pets folder:
+把 `eason` 文件夹复制到你的 Codex 桌宠目录：
 
 ```text
 C:\Users\<your-user-name>\.codex\pets\eason
 ```
 
-The final structure should be:
+最终文件结构应该是：
 
 ```text
 C:\Users\<your-user-name>\.codex\pets\eason\pet.json
 C:\Users\<your-user-name>\.codex\pets\eason\spritesheet.webp
 ```
 
-Restart Codex, or switch the desktop pet once and choose `Eason`.
+然后重启 Codex，或者在 Codex 里切换一次桌宠，选择 `Eason`。
 
-## Notes
+## 注意事项
 
-- Only drag movement uses the walking animation.
-- Selecting or non-drag states use standing/idle frames.
-- The spritesheet follows the Codex custom pet format: `1536x1872`, 8 columns by 9 rows, `192x208` cells.
+- 只有拖动桌宠时会播放走路动画。
+- 选中或非拖动状态不会触发走路动画，只会播放站立/待机动作。
+- 图集格式为 Codex 自定义桌宠格式：`1536x1872`，8 列 9 行，每格 `192x208`。
