@@ -32,8 +32,8 @@ C:\Users\<your-user-name>\.codex\pets\eason
 最终文件结构应该是：
 
 ```text
-C:\Users\<your-user-name>\.codex\pets\eason\pet.json
-C:\Users\<your-user-name>\.codex\pets\eason\spritesheet.webp
+C:\Users\<你的用户名>\.codex\pets\eason\pet.json
+C:\Users\<你的用户名>\.codex\pets\eason\spritesheet.webp
 ```
 
 然后重启 Codex，或者在 Codex 里切换一次桌宠，选择 `Eason`。
